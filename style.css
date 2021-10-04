@@ -214,211 +214,53 @@ a.animated-button.sandy-four:hover:after {
   opacity: 1;
   color: #FFF;
 }
-/* Gibson Buttons */
+/* Team Section */
+#team {
+  color: #fff;
+  background: #a7c44c url(../img/team-bg.jpg) center top no-repeat;
+  background-size: cover;
+}
+#team .overlay {
+  padding: 120px 0;
+  background: #353535;
+}
+#team h2, #team p {
+  font-size: large;
+}
+#team hr {
+  background: #fff;
+}
+#team h4 {
+  color: #fff;
+  font-weight: 500;
+  font-size: 20px;
+  margin: 5px 0;
+}
+#team p2 {
+ font-size: large;
 
-a.animated-button.gibson-one {
-  border: 2px solid #65b37a;
-  color: #FFF;
 }
-a.animated-button.gibson-one:after {
-  opacity: 0;
-  background-image: -webkit-linear-gradient( transparent 50%, rgba(101,179,122,0.2) 50%);
-  background-image: -moz-linear-gradient(transparent 50%, rgba(101,179,122,0.2) 50%);
-  background-size: 10px 10px;
-  -moz-transform: translateX(-50%) translateY(-50%) rotate(25deg);
-  -ms-transform: translateX(-50%) translateY(-50%) rotate(25deg);
-  -webkit-transform: translateX(-50%) translateY(-50%) rotate(25deg);
-  transform: translateX(-50%) translateY(-50%) rotate(25deg);
-}
-a.animated-button.gibson-one:hover:after {
-  height: 600% !important;
-  opacity: 1;
-  color: #FFF;
-}
-a.animated-button.gibson-two {
-  border: 2px solid #65b37a;
-  color: #FFF;
-}
-a.animated-button.gibson-two:after {
-  opacity: 0;
-  background-image: -webkit-linear-gradient( transparent 50%, rgba(101,179,122,0.2) 50%);
-  background-image: -moz-linear-gradient(transparent 50%, rgba(101,179,122,0.2) 50%);
-  background-size: 10px 10px;
-  -moz-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
-  -ms-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
-  -webkit-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
-  transform: translateX(-50%) translateY(-50%) rotate(-25deg);
-}
-a.animated-button.gibson-two:hover:after {
-  height: 600% !important;
-  opacity: 1;
-  color: #FFF;
-}
-a.animated-button.gibson-three {
-  border: 2px solid #65b37a;
-  color: #FFF;
-}
-a.animated-button.gibson-three:after {
-  opacity: 0;
-  background-image: -webkit-linear-gradient( transparent 50%, rgba(101,179,122,0.2) 50%);
-  background-image: -moz-linear-gradient(transparent 50%, rgba(101,179,122,0.2) 50%);
-  background-size: 10px 10px;
-  -moz-transform: translateX(-50%) translateY(-50%) rotate(90deg);
-  -ms-transform: translateX(-50%) translateY(-50%) rotate(90deg);
-  -webkit-transform: translateX(-50%) translateY(-50%) rotate(90deg);
-  transform: translateX(-50%) translateY(-50%) rotate(90deg);
-}
-a.animated-button.gibson-three:hover:after {
-  height: 600% !important;
-  opacity: 1;
-  color: #FFF;
-}
-a.animated-button.gibson-four {
-  border: 2px solid #65b37a;
-  color: #FFF;
-}
-a.animated-button.gibson-four:after {
-  opacity: 0;
-  background-image: -webkit-linear-gradient( transparent 50%, rgba(101,179,122,0.2) 50%);
-  background-image: -moz-linear-gradient(transparent 50%, rgba(101,179,122,0.2) 50%);
-  background-size: 10px 10px;
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -ms-transform: translateX(-50%) translateY(-50%));
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-}
-a.animated-button.gibson-four:hover:after {
-  height: 600% !important;
-  opacity: 1;
-  color: #FFF;
-}
-/* Thar Buttons */
-
-a.animated-button.thar-one {
+#team h3 {
   color: #fff;
-  cursor: pointer;
-  display: block;
-  position: relative;
-  border: 2px solid #F7CA18;
-  transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+  font-weight: 500;
+  font-size: 20px;
+  margin: 5px 0;
 }
-a.animated-button.thar-one:hover {
-  color: #000 !important;
-  background-color: transparent;
-  text-shadow: none;
+#team .team-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50px 0 50px 0;
+  box-shadow: 15px 0 #96b044;
 }
-a.animated-button.thar-one:hover:before {
-  bottom: 0%;
-  top: auto;
-  height: 100%;
+#team .thumbnail {
+  background: transparent;
+  border: 0;
 }
-a.animated-button.thar-one:before {
-  display: block;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  height: 0px;
-  width: 100%;
-  z-index: -1;
-  content: '';
-  color: #000 !important;
-  background: #F7CA18;
-  transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+#team .thumbnail .caption {
+  padding-top: 10px;
 }
-a.animated-button.thar-two {
+#team .thumbnail .caption p {
   color: #fff;
-  cursor: pointer;
-  display: block;
-  position: relative;
-  border: 2px solid #F7CA18;
-  transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
 }
-a.animated-button.thar-two:hover {
-  color: #000 !important;
-  background-color: transparent;
-  text-shadow: ntwo;
-}
-a.animated-button.thar-two:hover:before {
-  top: 0%;
-  bottom: auto;
-  height: 100%;
-}
-a.animated-button.thar-two:before {
-  display: block;
-  position: absolute;
-  left: 0px;
-  bottom: 0px;
-  height: 0px;
-  width: 100%;
-  z-index: -1;
-  content: '';
-  color: #000 !important;
-  background: #F7CA18;
-  transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
-}
-a.animated-button.thar-three {
-  color: #fff;
-  cursor: pointer;
-  display: block;
-  position: relative;
-  border: 2px solid #F7CA18;
-  transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
-0s;
-}
-a.animated-button.thar-three:hover {
-  color: #000 !important;
-  background-color: transparent;
-  text-shadow: nthree;
-}
-a.animated-button.thar-three:hover:before {
-  left: 0%;
-  right: auto;
-  width: 100%;
-}
-a.animated-button.thar-three:before {
-  display: block;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  height: 100%;
-  width: 0px;
-  z-index: -1;
-  content: '';
-  color: #000 !important;
-  background: #F7CA18;
-  transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
-0s;
-}
-a.animated-button.thar-four {
-  color: #fff;
-  cursor: pointer;
-  display: block;
-  position: relative;
-  border: 2px solid #F7CA18;
-  transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
-0s;
-}
-a.animated-button.thar-four:hover {
-  color: #000 !important;
-  background-color: transparent;
-  text-shadow: nfour;
-}
-a.animated-button.thar-four:hover:before {
-  right: 0%;
-  left: auto;
-  width: 100%;
-}
-a.animated-button.thar-four:before {
-  display: block;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  height: 100%;
-  width: 0px;
-  z-index: -1;
-  content: '';
-  color: #000 !important;
-  background: #F7CA18;
-  transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
-0s;
+/*section*/
 }
